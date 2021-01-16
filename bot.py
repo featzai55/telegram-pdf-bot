@@ -32,10 +32,10 @@ from telegram.utils.request import Request
 from pdf_bot import *
 
 load_dotenv()
-APP_URL = os.environ.get("APP_URL")
+APP_URL = os.environ.get("http://t.me/Pdf341bot")
 PORT = int(os.environ.get("PORT", "8443"))
-TELE_TOKEN = os.environ.get("TELE_TOKEN_BETA", os.environ.get("TELE_TOKEN"))
-DEV_TELE_ID = int(os.environ.get("DEV_TELE_ID"))
+TELE_TOKEN = os.environ.get("TELE_TOKEN_BETA", os.environ.get("1552480682:AAH0tYsegX39FdxiSKMFCNOeZQuyGWjQq60 "))
+DEV_TELE_ID = int(os.environ.get("2988331"))
 
 TIMEOUT = 20
 CALLBACK_DATA = "callback_data"
